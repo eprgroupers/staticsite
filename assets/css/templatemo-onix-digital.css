@@ -155,6 +155,56 @@ body {
   color: #fff;
 }
 
+/* ----------------------------------------- added new styles---------------------- */
+.modal-header{
+  background-color: darksalmon;
+}
+.modal-title{
+  color: #fff;
+  text-shadow: 1px 1px 10px ;
+}
+.modal-site-button a{
+  border: 1px solid tomato;
+  border-radius: 20px;
+}
+.active-btn a {
+  background: rgb(104, 29, 16);
+  border-radius: 30px;
+  color: white !important;
+}
+.active-btn span {
+  color: rgb(255, 255, 255) !important;
+}
+#whatsapp{
+  position: fixed;
+  bottom: 15px;
+  right: 15px; 
+  z-index: 999;
+}
+@media (max-width:425px){
+  #whatsapp i {
+    width: 50px !important;
+    height: 50px !important;
+    padding-top: 4px;
+    font-size: 35px !important;
+    /* box-shadow: 2px 2px #ff695f; */
+  }
+}
+#whatsapp i {
+  width: 60px;
+  height: 60px;
+  background-color: #03a4ed;
+  box-shadow: 3px 3px #ff695f;
+  border-radius: 50%;
+  font-size: 45px;
+  color: white ;
+  text-align: center;
+  display: inline-block;
+  padding-top: 7px;
+  /* font-weight: 900; */
+  /* line-height: 46px; */
+}
+
 @media (max-width: 991px) {
   html, body {
     overflow-x: hidden;
@@ -863,7 +913,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 236px 0px 130px 0px;
+  padding: 236px 0px 50px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1077,7 +1127,15 @@ Services Style
 About
 --------------------------------------------- 
 */
-
+.row-top{
+  margin-bottom: 0px !important;
+}
+.count-area-content{
+  cursor: pointer;
+}
+.count-area-content .count-title{
+  height: 50px;
+}
 .about-us {
   margin-top: 0px;
   padding-top: 120px;
@@ -1096,8 +1154,8 @@ About
 }
 
 .about-us .fact-item .icon {
-  width: 45px;
-  height: 45px;
+  width: 100px;
+  height: 100px;
 }
 
 .about-us .fact-item {
