@@ -1134,7 +1134,7 @@ About
   /* cursor: pointer; */
   /* box-shadow: 0px 0.1px 20px #fdeae8; */
   border-radius: 10px;
-  background: linear-gradient(180deg, rgb(235,248,254) 0%, rgb(255, 244, 244) 100%);
+  /* background: linear-gradient(180deg, rgb(235,248,254) 0%, rgb(255, 244, 244) 100%); */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1230,23 +1230,31 @@ Portfolio
 }
 
 .our-portfolio .item .thumb:hover .hover-effect {
-  bottom: 30px;
+  bottom: 0px;
+}
+.our-portfolio .item .thumb:hover .hover-effect img{
+  margin: auto;
+  z-index: 3;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .our-portfolio .item .thumb:hover img {
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .our-portfolio .item .hover-effect {
   position: absolute;
-  background-image: url(../images/hover-bg.png);
+  /* background-image: url(../images/hover-bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
   bottom: -240px;
   right: 30px;
-  width: 239px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
 }
 
 .our-portfolio .item .hover-effect .inner-content {
@@ -1271,6 +1279,15 @@ Portfolio
 .our-portfolio .item .thumb img {
   border-radius: 20px;
   transition: all .3s;
+}
+.portfolio-content{
+  border-radius: 30px;
+  padding: 20px;
+  height: 350px;
+  background-color: white;
+}
+.portfolio-content p{
+  /* text-shadow: 0.1px 0.1px 20px rgb(0, 0, 0) ; */
 }
 
 .owl-portfolio .owl-nav {
@@ -1300,7 +1317,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  /* background-color: #ff695f; */
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1324,7 +1341,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  /* background-color: #ff695f; */
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1344,7 +1361,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  /* background-color: #ff695f; */
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
