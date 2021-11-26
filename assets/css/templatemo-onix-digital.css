@@ -1292,6 +1292,12 @@ Portfolio
   font-size: 15px;
   color: #fff;
 }
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
 
 .our-portfolio .item .thumb img {
   border-radius: 20px;
